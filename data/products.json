@@ -1,0 +1,54 @@
+[
+	{
+		"id": 1,
+		"name": "Pioneer DDJ 400",
+		"price": 350000,
+		"description": "<p>Spesifikasi alat:<br>-Controller DJ Set<br>-Menggunakan Software Rekordbox dan Serato<br>-Plug n Play<br>-Harus menggunakan Laptop</p> <p>&nbsp;</p> <p>Kelengkapan:<br>-Unit Controller dengan tas<br>-Kabel USB untuk Controller ke Laptop<br>-Kabel audio RCA to XLR 5meter 2 pasang(optional)</p>",
+		"image": "/p1.jpg",
+		"avaibility": true,
+		"video": [
+			{
+				"id": 1,
+				"name": "Video 1",
+				"url": "https://www.youtube.com/embed/GIN5XFlw_CE?si=T7g0CMF2rLYrKXME"
+			},
+			{
+				"id": 2,
+				"name": "Video 2",
+				"url": "https://www.youtube.com/embed/NXcbdYkPY-E?si=RbsTGeWEwQwo4Sn7"
+			},
+			{
+				"id": 3,
+				"name": "Video 3",
+				"url": "https://www.youtube.com/embed/-aAQC2obxrE?si=lhfu-Dtc_aNvO2OJ"
+			}
+		],
+		"images": ["/p1.jpg", "/p2.jpg"]
+	},
+	{
+		"id": 2,
+		"name": "DDJ-FLX4 2 Channel",
+		"price": 350000,
+		"description": "<p>Spesifikasi alat:<br>-Controller DJ Set<br>-Menggunakan Software Rekordbox dan Serato<br>-Plug n Play<br>-Harus menggunakan Laptop</p> <p>&nbsp;</p> <p>Kelengkapan:<br>-Unit Controller dengan tas<br>-Kabel USB untuk Controller ke Laptop<br>-Kabel audio RCA to XLR 5meter 2 pasang(optional)</p>",
+		"image": "/p1.jpg",
+		"avaibility": true,
+		"video": [
+			{
+				"id": 1,
+				"name": "Video 1",
+				"url": "https://www.youtube.com/embed/GIN5XFlw_CE?si=T7g0CMF2rLYrKXME"
+			},
+			{
+				"id": 2,
+				"name": "Video 2",
+				"url": "https://www.youtube.com/embed/NXcbdYkPY-E?si=RbsTGeWEwQwo4Sn7"
+			},
+			{
+				"id": 3,
+				"name": "Video 3",
+				"url": "https://www.youtube.com/embed/-aAQC2obxrE?si=lhfu-Dtc_aNvO2OJ"
+			}
+		],
+		"images": ["/p1.jpg", "/p2.jpg"]
+	}
+]
