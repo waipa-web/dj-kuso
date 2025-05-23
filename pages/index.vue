@@ -126,7 +126,7 @@
 				<img src="/icon.png" alt="Logo" class="w-52 mb-2" />
 				<h2 class="text-xl font-bold">Kuso Rental</h2>
 				<p class="text-sm text-muted-foreground">Solusi sewa alat DJ</p>
-				<h2 class="text-xl font-bold" <li> <a href="https://tokokusodj.carrd.co" target="_blank" class="hover:underline text-primary">Toko Kuso DJ</a></li></h2>
+				<h2 class="text-xl font-bold" <li> <a href="https://tokokusodj.carrd.co">Toko Kuso DJ</a></li></h2>
 				<p class="text-sm text-muted-foreground">Jual Alat DJ</p>
 			</div>
 
