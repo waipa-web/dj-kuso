@@ -79,7 +79,7 @@
 					<li>Diluar Jakarta Barat, silakan hubungi kami terlebih dahulu via WhatsApp.</li>
 					<li>Penyewaan barang sudah termasuk <strong>Operator</strong> atau perwakilan toko (<span class="italic">opsional jika dibutuhkan</span>).</li>
 					<li>Booking tanggal bisa <strong>H-1</strong>, namun lebih disarankan dari jauh hari.</li>
-					<li><strong>DP</strong> diperlukan jika masa sewa lebih dari 2 hari.</li>
+					<li><strong>DP</strong> diperlukan jika masa sewa lebih dari 3 hari.</li>
 					<li>Untuk sewa 3 hari atau lebih, dokumen persyaratan sedikit berbeda — hubungi kami.</li>
 					<li>Peminjam <strong>setuju dan menerima sepenuhnya</strong> semua ketentuan. Jika terjadi keterlambatan, pencurian, kerusakan tanpa ganti rugi, atau hilang tanpa kabar, maka <span class="text-red-600 dark:text-red-400 font-semibold">jaminan dapat digunakan oleh pihak penyewa sesuai ketentuan</span>.</li>
 				</ol>
@@ -105,7 +105,7 @@
 					<p class="font-semibold text-base">Ongkos Kirim (di luar promo):</p>
 					<ul class="list-disc list-inside pl-2">
 						<li>5 – 10 KM: <span class="font-medium">Rp 25.000</span></li>
-						<li>10 – 20 KM: <span class="font-medium">Rp 45.000</span></li>
+						<li>10 – 20 KM: <span class="font-medium">Rp 50.000</span></li>
 						<li>&gt; 20 KM: <span class="italic">Silakan hubungi kami terlebih dahulu</span></li>
 					</ul>
 				</div>
@@ -125,7 +125,7 @@
 			<div class="flex flex-col space-y-2">
 				<img src="/icon.png" alt="Logo" class="w-52 mb-2" />
 				<h2 class="text-xl font-bold">Kuso Rental</h2>
-				<p class="text-sm text-muted-foreground">Solusi lengkap sewa alat DJ dan event audio</p>
+				<p class="text-sm text-muted-foreground">Solusi sewa alat DJ</p>
 			</div>
 
 			<!-- Column 2: Contact Links -->
@@ -133,7 +133,7 @@
 				<h3 class="text-base font-semibold">Hubungi Kami</h3>
 				<ul class="space-y-1 text-sm lg:text-end">
 					<li>
-						<a href="https://wa.me/6289637221066" target="_blank" class="hover:underline text-primary"> WhatsApp: 0812-3456-7890 </a>
+						<a href="https://wa.me/6289637221066" target="_blank" class="hover:underline text-primary"> WhatsApp: 0896-3722-1066 </a>
 					</li>
 					<li>
 						<a href="tel:+6289637221066" class="hover:underline text-primary"> Telp: +6289637221066 </a>
