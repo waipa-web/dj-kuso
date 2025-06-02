@@ -111,6 +111,8 @@
 				</div>
 
 				<p class="text-sm text-muted-foreground italic">Sudah termasuk antar-jemput 📦</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.4262775216832!2d106.78908429943054!3d-6.150495022877307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7ca5e953061%3A0xc8864f062b2d38bc!2sRental%20Sewa%20Alat%20DJ%20Kuso!5e0!3m2!1sid!2sid!4v1748841719964!5m2!1sid!2sid"
+			width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</CardContent>
 
 			<CardFooter class="justify-center pt-4">
