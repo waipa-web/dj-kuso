@@ -104,8 +104,8 @@
 				<div class="border rounded-md p-4 bg-muted/40 space-y-1">
 					<p class="font-semibold text-base">Ongkos Kirim (di luar promo):</p>
 					<ul class="list-disc list-inside pl-2">
-						<li>5 – 10 KM: <span class="font-medium">Rp 25.000</span></li>
-						<li>10 – 20 KM: <span class="font-medium">Rp 50.000</span></li>
+						<li>5 – 10 KM: <span class="font-medium">Start from Rp 25.000</span></li>
+						<li>10 – 20 KM: <span class="font-medium">Start from Rp 50.000</span></li>
 						<li>&gt; 20 KM: <span class="italic">Silakan hubungi kami terlebih dahulu</span></li>
 					</ul>
 				</div>
