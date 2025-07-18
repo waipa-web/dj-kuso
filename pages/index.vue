@@ -50,7 +50,7 @@
 
 					<CardFooter class="mt-auto flex justify-between items-center">
 						<Badge class="font-bold px-3 py-1 text-sm" :class="product?.avaibility ? 'bg-green-500' : 'bg-red-500'">
-							{{ product?.avaibility ? "Tersedia" : "Tidak Tersedia" }}
+							{{ product?.avaibility ? "Tersedia" : "On Service" }}
 						</Badge>
 
 						<span class="font-bold text-lg">{{ useRupiahFormat(product.price) }} / Day</span>
@@ -198,7 +198,7 @@
 						<span>{{ productDetail?.name }}</span>
 
 						<Badge class="font-bold px-3 py-1" :class="productDetail?.avaibility ? 'bg-green-500' : 'bg-red-500'">
-							{{ productDetail?.avaibility ? "Tersedia" : "Tidak Tersedia" }}
+							{{ productDetail?.avaibility ? "Tersedia" : "On Service" }}
 						</Badge>
 					</h2>
 
