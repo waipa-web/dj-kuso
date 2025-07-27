@@ -70,7 +70,7 @@
 					<li>Foto peminjam dengan <strong>KTP</strong>.</li>
 					<li>
 						Lebih dari 24 jam akan dikenakan denda, dengan jumlah sewa per hari (24 jam) yaitu
-						<span class="text-red-500 dark:text-red-400 font-semibold">Rp 360.000,-</span>.<br />
+						<span class="text-red-500 dark:text-red-400 font-semibold">Rp 370.000,-</span>.<br />
 						Jika invoice tidak dibayarkan dalam 1 bulan, akan dikenakan
 						<span class="text-red-500 dark:text-red-400 font-semibold">biaya keterlambatan 2% per hari</span>
 						dari total harga sewa, dihitung sejak tanggal selesai peminjaman.
