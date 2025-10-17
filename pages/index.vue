@@ -81,7 +81,7 @@
 					<li>Booking tanggal bisa <strong>H-1</strong>, namun lebih disarankan dari jauh hari.</li>
 					<li><strong>DP</strong> diperlukan jika masa sewa lebih dari 3 hari.</li>
 					<li>Untuk sewa 3 hari atau lebih, dokumen persyaratan sedikit berbeda — hubungi kami.</li>
-					<li>Peminjam <strong>setuju dan menerima sepenuhnya</strong> semua ketentuan. Jika terjadi keterlambatan, pencurian, kerusakan tanpa ganti rugi, atau hilang tanpa kabar, maka <span class="text-red-600 dark:text-red-400 font-semibold">Pihak Jasa tidak menjaminan lagi dan lepas tanggung jawab dari segala macam.</span>.</li>
+					<li>Peminjam <strong>setuju dan menerima sepenuhnya</strong> semua ketentuan. Jika terjadi keterlambatan, pencurian, kerusakan tanpa ganti rugi, atau hilang tanpa kabar, maka <span class="text-red-600 dark:text-red-400 font-semibold">Pihak Jasa tidak menjaminan lagi dan lepas tanggung jawab Data PEMINJAM atas dari segala macam.</span>.</li>
 				</ol>
 			</CardContent>
 			<CardFooter class="justify-center pt-6">
