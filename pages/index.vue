@@ -97,7 +97,7 @@
 
 			<CardContent class="space-y-4 text-sm sm:text-base">
 				<ul class="list-disc list-inside space-y-1">
-					<li><strong>Gratis Ongkir</strong> untuk pengiriman maksimal <strong>10 KM</strong></li>
+					<li><strong>Gratis Ongkir</strong> untuk pengiriman maksimal <strong>5 KM</strong></li>
 					<li>Berlaku khusus untuk <strong>sewa harian</strong></li>
 				</ul>
 
