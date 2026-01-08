@@ -50,31 +50,5 @@
 			}
 		],
 		"images": ["/p1.jpg", "/p1-2.png", "/p1-3.png", "/kabel.jpg"]
-	},
-{
-		"id": 3,
-		"name": "DJ Zeze",
-		"price": 3000000,
-		"description": "<p>Genre: Indobounce, Breakbeat, Pop, Progressive House</p>",
-		"image": "/p1.jpg",
-		"avaibility": true,
-		"video": [
-			{
-				"id": 1,
-				"name": "Video 1",
-				"url": "https://www.youtube.com/embed/AJk_csNZQbY?si=6052P_yFmCQYHaMD"
-			},
-			{
-				"id": 2,
-				"name": "Video 2",
-				"url": "https://www.youtube.com/embed/NXcbdYkPY-E?si=RbsTGeWEwQwo4Sn7"
-			},
-			{
-				"id": 3,
-				"name": "Video 3",
-				"url": "https://www.youtube.com/embed/-aAQC2obxrE?si=lhfu-Dtc_aNvO2OJ"
-			}
-		],
-		"images": ["/p1.jpg", "/p1-2.png", "/p1-3.png", "/kabel.jpg"]
 	}
 ]
