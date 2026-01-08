@@ -4,6 +4,7 @@
 		"name": "DJ Zeze",
 		"price": 900000,
 		"description": "<p>The Name Stage is ZEZE Usually playing many Genre for Pensi Sekolah, Private Party etc.<br></br>Genre: Indobounce, Breakbeat, Pop, Progressive House, R&B<br></br><b>Untuk Pertanyaan lebih lanjut silahkan CHAT WHATSAPP (bisa tekan tombol BookNow)</b>
+	  <template>
 	  <Button
 				@click="onOpenBook"
 				v-glitch="{
@@ -13,7 +14,8 @@
 				class="font-bold lg:text-lg lg:p-5 cursor-pointer"
 			>
 				Book Now
-			</Button></p>",
+			</Button>
+	</template></p>",
 		"image": "/zeze/ze1.jpg",
 		"avaibility": true,
 		"video": [
