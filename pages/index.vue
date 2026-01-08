@@ -293,9 +293,6 @@ interface Product {
 
 const products = ref<Product[]>([]);
 
-onMounted(() => {
-	products.value = productData;
-}
 interface Talent {
 	id: number;
 	name: string;
