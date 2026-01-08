@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "DJ Zeze",
 		"price": 900000,
-		"description": "<p>Genre: Indobounce, Breakbeat, Pop, Progressive House, R&B</p>",
+		"description": "<p>The Name Stage is ZEZE<br><br/>Usually playing many Genre<br></br>for Pensi Sekolah, Private Party etc.<br></br>Genre: Indobounce, Breakbeat, Pop, Progressive House, R&B<br></br>Untuk Pertanyaan lebih lanjut silahkan CHAT WHATSAPP (bisa tekan tombol BookNow)</p>",
 		"image": "/zeze/ze1.jpg",
 		"avaibility": true,
 		"video": [
@@ -15,12 +15,22 @@
 			{
 				"id": 2,
 				"name": "Video 2",
-				"url": "https://www.youtube.com/embed/NXcbdYkPY-E?si=RbsTGeWEwQwo4Sn7"
+				"url": "https://drive.google.com/file/d/1vWQDv3hRQdUp4DGw72r38W6W2qOhMf_h/preview"
 			},
 			{
 				"id": 3,
 				"name": "Video 3",
-				"url": "https://www.youtube.com/embed/-aAQC2obxrE?si=lhfu-Dtc_aNvO2OJ"
+				"url": "https://drive.google.com/file/d/1QixeUnPjy02MVQ_w-8kDYPoUpaQBxqTI/preview"
+			},
+			{
+				"id": 4,
+				"name": "Video 4",
+				"url": "https://drive.google.com/file/d/1Mvi_GS_lbkEUXJRqdpL9HIL-mjCqb7k3/preview"
+			},
+		{
+				"id": 5,
+				"name": "Video 5",
+				"url": "https://drive.google.com/file/d/1UbAcSqFwotuePYUiF3nU7VCfeYUCp-sO/preview"
 			}
 		],
 		"images": ["/zeze/ze1.jpg", "/zeze/ze2.jpg", "/zeze/ze3.jpg", "/zeze/ze4.jpg"]
