@@ -265,6 +265,7 @@
 // @ts-ignore
 import { vGlitch } from "vue-powerglitch";
 import productData from "~/data/products.json";
+import talentData from "~/data/talents.json";
 import truncate, { type IOptions } from "truncate-html";
 
 const onOpenBook = () => {
@@ -294,6 +295,27 @@ const products = ref<Product[]>([]);
 
 onMounted(() => {
 	products.value = productData;
+
+interface Talent {
+	id: number;
+	name: string;
+	price: number;
+	description: string;
+	image: string;
+	avaibility: boolean;
+	video: {
+		id: number;
+		name: string;
+		url: string;
+	}[];
+	images: string[];
+}
+
+const talents = ref<Talent[]>([]);
+
+onMounted(() => {
+	products.value = productData;
+	talents.value = talentData;
 });
 
 // Product detail dialog
