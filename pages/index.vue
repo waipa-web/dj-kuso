@@ -63,7 +63,7 @@
 		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
 
 		<ClientOnly>
-			<div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
+			<div class="talents grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
 				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product)">
 					<div>
 						<CardHeader>
