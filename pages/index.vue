@@ -58,7 +58,8 @@
 			</div>
 		</ClientOnly>
 	</section>
-	
+	<br >
+	</br>
 	<section class="product pt-50">
 		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
 
