@@ -245,6 +245,7 @@
 					</div>
 
 					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(productDetail!.price) }} / Day</div>
+					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(talentDetail!.price) }} / Jam</div>
 
 					<Tabs :default-value="productDetail?.video[0].id" class="pt-10">
 						<TabsList>
