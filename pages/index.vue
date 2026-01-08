@@ -242,6 +242,7 @@
 
 					<div class="description overflow-y-auto max-h-[70vh]">
 						<p v-html="productDetail?.description" class="text-sm"></p>
+						<p v-html="talentDetail?.description" class="text-sm"></p>
 					</div>
 
 					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(productDetail!.price) }} / Day</div>
