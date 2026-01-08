@@ -300,9 +300,8 @@ onMounted(() => {
 const productDetail = ref<Product>();
 const modalDetailProductState = ref(false);
 
-const onOpenModalDetailProduct = (product: Product) => {
+const onOpenModalDetailProduct = (product: Product | Talent) => {
 	productDetail.value = product;
-
 	modalDetailProductState.value = true;
 };
 </script>
