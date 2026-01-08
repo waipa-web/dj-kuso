@@ -242,11 +242,9 @@
 
 					<div class="description overflow-y-auto max-h-[70vh]">
 						<p v-html="productDetail?.description" class="text-sm"></p>
-						<p v-html="talentDetail?.description" class="text-sm"></p>
 					</div>
 
 					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(productDetail!.price) }} / Day</div>
-					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(talentDetail!.price) }} / Jam</div>
 
 					<Tabs :default-value="productDetail?.video[0].id" class="pt-10">
 						<TabsList>
@@ -254,6 +252,32 @@
 						</TabsList>
 
 						<TabsContent v-for="item in productDetail?.video" :value="item.id" class="pt-2">
+							<iframe width="100%" height="315" :src="item.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						</TabsContent>
+					</Tabs>
+				</div>
+				<!-- Talent Details Section -->
+				<div class="w-full md:w-1/2 space-y-4">
+					<h2 class="text-xl font-semibold flex items-center justify-between">
+						<span>{{ talentDetail?.name }}</span>
+
+						<Badge class="font-bold px-3 py-1" :class="talentDetail?.avaibility ? 'bg-green-500' : 'bg-red-500'">
+							{{ talentDetail?.avaibility ? "Tersedia" : "On Service" }}
+						</Badge>
+					</h2>
+
+					<div class="description overflow-y-auto max-h-[70vh]">
+						<p v-html="talentDetail?.description" class="text-sm"></p>
+					</div>
+
+					<div class="text-xl font-bold text-primary">{{ useRupiahFormat(talentDetail!.price) }} / Jam</div>
+
+					<Tabs :default-value="talentDetail?.video[0].id" class="pt-10">
+						<TabsList>
+							<TabsTrigger v-for="item in talentDetail?.video" :value="item.id"> {{ item.name }} </TabsTrigger>
+						</TabsList>
+
+						<TabsContent v-for="item in talentDetail?.video" :value="item.id" class="pt-2">
 							<iframe width="100%" height="315" :src="item.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						</TabsContent>
 					</Tabs>
