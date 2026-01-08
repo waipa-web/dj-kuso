@@ -33,7 +33,7 @@
 						</CardHeader>
 
 						<section class="product pt-50">
-		<h1 class="text-center font-bold text-2xl">Our Product</h1>
+		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
 
 						<CardContent class="flex flex-col items-center mt-5">
 							<img :src="product.image" alt="product image" class="w-full h-48 object-cover mb-2" />
