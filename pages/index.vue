@@ -63,21 +63,21 @@
 		<h1 class="text-center font-bold text-2xl">Our Talents</h1>
 
 		<ClientOnly>
-			<div class="talents grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
-				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product)">
+			<div class="talent grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
+				<Card v-for="talent in talents" :key="talent.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(talent)">
 					<div>
 						<CardHeader>
-							<CardTitle>{{ product.name }}</CardTitle>
+							<CardTitle>{{ talent.name }}</CardTitle>
 						</CardHeader>
 						<CardContent class="flex flex-col items-center mt-5">
-							<img :src="product.image" alt="product image" class="w-full h-48 object-cover mb-2" />
+							<img :src="talent.image" alt="talent image" class="w-full h-48 object-cover mb-2" />
 						</CardContent>
 					</div>
 
 					<div class="description py-5 px-10">
 						<div
 							v-html="
-								truncate(product.description, {
+								truncate(talent.description, {
 									length: 20,
 									byWords: true,
 								})
@@ -86,11 +86,11 @@
 					</div>
 
 					<CardFooter class="mt-auto flex justify-between items-center">
-						<Badge class="font-bold px-3 py-1 text-sm" :class="product?.avaibility ? 'bg-green-500' : 'bg-red-500'">
-							{{ product?.avaibility ? "Tersedia" : "On Service" }}
+						<Badge class="font-bold px-3 py-1 text-sm" :class="talent?.avaibility ? 'bg-green-500' : 'bg-red-500'">
+							{{ talent?.avaibility ? "Tersedia" : "On Service" }}
 						</Badge>
 
-						<span class="font-bold text-lg">{{ useRupiahFormat(product.price) }} / Day</span>
+						<span class="font-bold text-lg">{{ useRupiahFormat(talent.price) }} / Jam</span>
 					</CardFooter>
 				</Card>
 			</div>
