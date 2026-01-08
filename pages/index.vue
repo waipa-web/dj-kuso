@@ -60,7 +60,7 @@
 	</section>
 	
 	<section class="product pt-50">
-		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
+		<h1 class="text-center font-bold text-2xl">Our Talents</h1>
 
 		<ClientOnly>
 			<div class="talents grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
