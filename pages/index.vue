@@ -31,17 +31,6 @@
 						<CardHeader>
 							<CardTitle>{{ product.name }}</CardTitle>
 						</CardHeader>
-
-						<section class="product pt-50">
-		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
-							<ClientOnly>
-			<div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
-				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product)">
-					<div>
-						<CardHeader>
-							<CardTitle>{{ product.name }}</CardTitle>
-						</CardHeader>
-
 						<CardContent class="flex flex-col items-center mt-5">
 							<img :src="product.image" alt="product image" class="w-full h-48 object-cover mb-2" />
 						</CardContent>
@@ -69,6 +58,44 @@
 			</div>
 		</ClientOnly>
 	</section>
+	<section class="product pt-50">
+		<h1 class="text-center font-bold text-2xl">Our Talent</h1>
+
+		<ClientOnly>
+			<div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
+				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product)">
+					<div>
+						<CardHeader>
+							<CardTitle>{{ product.name }}</CardTitle>
+						</CardHeader>
+						<CardContent class="flex flex-col items-center mt-5">
+							<img :src="product.image" alt="product image" class="w-full h-48 object-cover mb-2" />
+						</CardContent>
+					</div>
+
+					<div class="description py-5 px-10">
+						<div
+							v-html="
+								truncate(product.description, {
+									length: 20,
+									byWords: true,
+								})
+							"
+						></div>
+					</div>
+
+					<CardFooter class="mt-auto flex justify-between items-center">
+						<Badge class="font-bold px-3 py-1 text-sm" :class="product?.avaibility ? 'bg-green-500' : 'bg-red-500'">
+							{{ product?.avaibility ? "Tersedia" : "On Service" }}
+						</Badge>
+
+						<span class="font-bold text-lg">{{ useRupiahFormat(product.price) }} / Day</span>
+					</CardFooter>
+				</Card>
+			</div>
+		</ClientOnly>
+	</section>
+
 
 	<section class="terms pt-50 flex flex-wrap justify-center gap-20 p-10">
 		<Card class="max-w-2xl mt-10 shadow-xl border border-border bg-background text-foreground">
