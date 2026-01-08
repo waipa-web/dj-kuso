@@ -59,7 +59,7 @@
 		</ClientOnly>
 	</section>
 	
-	<section class="product pt-50">
+	<section class="talent pt-50">
 		<h1 class="text-center font-bold text-2xl">Our Talents</h1>
 
 		<ClientOnly>
