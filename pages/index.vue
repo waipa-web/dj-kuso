@@ -264,14 +264,6 @@ import productData from "~/data/products.json";
 import talentData from "~/data/talents.json";
 import truncate, { type IOptions } from "truncate-html";
 
-const onOpenBook = () => {
-	navigateTo("https://wa.me/6289637221066", {
-		open: {
-			target: "_blank",
-		},
-	});
-};
-
 interface CatalogItem {
 	id: number;
 	name: string;
@@ -290,7 +282,7 @@ interface CatalogItem {
 const products = ref<CatalogItem[]>([]);
 const talents = ref<CatalogItem[]>([]);
 	
-const detailItem = ref<CatalogItem>();
+const detailItem = ref<CatalogItem | null>(null);
 const detailType = ref<"product" | "talent">("product");
 const modalDetailProductState = ref(false);
 	
