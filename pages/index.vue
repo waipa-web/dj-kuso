@@ -26,7 +26,7 @@
 
 		<ClientOnly>
 			<div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
-				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product)">
+				<Card v-for="product in products" :key="product.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(product, 'product')">
 					<div>
 						<CardHeader>
 							<CardTitle>{{ product.name }}</CardTitle>
@@ -64,7 +64,7 @@
 
 		<ClientOnly>
 			<div class="talent grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10">
-				<Card v-for="talent in talents" :key="talent.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(talent)">
+				<Card v-for="talent in talents" :key="talent.id" class="flex flex-col h-full justify-between transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-primary hover:bg-zinc-900/20 cursor-pointer" @click="onOpenModalDetailProduct(talent, 'talent')">
 					<div>
 						<CardHeader>
 							<CardTitle>{{ talent.name }}</CardTitle>
@@ -206,7 +206,7 @@
 
 	<Dialog v-model:open="modalDetailProductState" class="w-full">
 		<DialogScrollContent class="max-w-[90%] sm:max-w-[80%]">
-			<div class="flex flex-col md:flex-row gap-6 p-5">
+			<div v-if="detailItem" class="flex flex-col md:flex-row gap-6 p-5">
 				<!-- Carousel Section -->
 				<div class="w-full md:w-1/2">
 					<PagesCarouselThumbnail :images="detailItem.images"></PagesCarouselThumbnail>
@@ -289,19 +289,28 @@ interface CatalogItem {
 
 const products = ref<CatalogItem[]>([]);
 const talents = ref<CatalogItem[]>([]);
+	
 const detailItem = ref<CatalogItem>();
-
+const detailType = ref<"product" | "talent">("product");
+const modalDetailProductState = ref(false);
+	
 onMounted(() => {
 	products.value = productData;
 	talents.value = talentData;
 });
 
-// Product detail dialog
-const detailItem = ref<Product | Talent>();
-const modalDetailProductState = ref(false);
-
-const onOpenModalDetailProduct = (item: Product | Talent) => {
+const onOpenModalDetailProduct = (
+	item: CatalogItem,
+	type: "product" | "talent"
+) => {
 	detailItem.value = item;
+	detailType.value = type;
 	modalDetailProductState.value = true;
+};
+
+const onOpenBook = () => {
+	navigateTo("https://wa.me/6289637221066", {
+		open: { target: "_blank" },
+	});
 };
 </script>
