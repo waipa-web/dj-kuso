@@ -302,7 +302,7 @@ const onOpenBook = () => {
 	});
 };
 
-interface Product {
+interface CatalogItem {
 	id: number;
 	name: string;
 	price: number;
@@ -317,24 +317,9 @@ interface Product {
 	images: string[];
 }
 
-const products = ref<Product[]>([]);
-
-interface Talent {
-	id: number;
-	name: string;
-	price: number;
-	description: string;
-	image: string;
-	avaibility: boolean;
-	video: {
-		id: number;
-		name: string;
-		url: string;
-	}[];
-	images: string[];
-}
-
-const talents = ref<Talent[]>([]);
+const products = ref<CatalogItem[]>([]);
+const talents = ref<CatalogItem[]>([]);
+const detailItem = ref<CatalogItem>();
 
 onMounted(() => {
 	products.value = productData;
@@ -342,11 +327,11 @@ onMounted(() => {
 });
 
 // Product detail dialog
-const productDetail = ref<Product>();
+const detailItem = ref<Product | Talent>();
 const modalDetailProductState = ref(false);
 
-const onOpenModalDetailProduct = (product: Product | Talent) => {
-	productDetail.value = product;
+const onOpenModalDetailProduct = (item: Product | Talent) => {
+	detailItem.value = item;
 	modalDetailProductState.value = true;
 };
 </script>
