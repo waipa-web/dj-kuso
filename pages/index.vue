@@ -153,36 +153,18 @@
 			<CardFooter class="justify-center pt-4">
 				<Badge variant="outline" class="text-green-700 dark:text-green-300 border-green-600 dark:border-green-400"> Berlaku Terbatas </Badge>
 			</CardFooter>
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .map-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Agar berada di tengah layar */
-    }
-  </style>
-</head>
-<body>
-
-  <div class="map-container">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.4262775216832!2d106.78908429943054!3d-6.150495022877307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7ca5e953061%3A0xc8864f062b2d38bc!2sRental%20Sewa%20Alat%20DJ%20Kuso!5e0!3m2!1sid!2sid!4v1748841719964!5m2!1sid!2sid" 
-      width="450" 
-      height="350" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-
-</body>
-</html>
+			
+			<ClientOnly>
+	<div class="flex justify-center py-10">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.4262775216832!2d106.78908429943054!3d-6.150495022877307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7ca5e953061%3A0xc8864f062b2d38bc!2sRental%20Sewa%20Alat%20DJ%20Kuso!5e0!3m2!1sid!2sid!4v1748841719964!5m2!1sid!2sid"
+			width="450"
+			height="350"
+			class="rounded-lg shadow-md border-0"
+			loading="lazy"
+		/>
+	</div>
+</ClientOnly>
 		</Card>
 	</section>
 
