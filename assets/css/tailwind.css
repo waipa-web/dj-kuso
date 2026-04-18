@@ -121,6 +121,10 @@
 		@apply bg-background text-foreground;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 	/* Firefox */
 	* {
 		scrollbar-width: thin;
