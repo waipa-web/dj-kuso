@@ -67,19 +67,17 @@
 		<div class="ticker-track flex gap-0 whitespace-nowrap">
 			<span v-for="n in 3" :key="n" class="ticker-content inline-flex gap-12 px-6 text-xs font-semibold uppercase tracking-widest text-primary/70">
 				<span>🎵 Sewa Alat DJ</span>
-				<span>🎧 Sound System Pro</span>
 				<span>🎤 Talent DJ</span>
 				<span>🚚 Free Ongkir 5KM</span>
 				<span>📍 Jakarta Barat</span>
 				<span>📞 Hubungi Sekarang</span>
-				<span>⭐ 100+ Event</span>
+				<span>⭐ 100+ Clients</span>
 				<span>🎵 Sewa Alat DJ</span>
-				<span>🎧 Sound System Pro</span>
 				<span>🎤 Talent DJ</span>
-				<span>🚚 Free Ongkir 5KM</span>
+				<span>🚚 Free Ongkir 0-5KM</span>
 				<span>📍 Jakarta Barat</span>
 				<span>📞 Hubungi Sekarang</span>
-				<span>⭐ 100+ Event</span>
+				<span>⭐ 100+ Clients</span>
 			</span>
 		</div>
 	</div>
@@ -195,7 +193,7 @@
 						</CardHeader>
 						<CardContent class="pt-2">
 							<ol class="space-y-3 text-sm">
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">01</span><span>Foto peminjam dengan <strong>KTP</strong>.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">01</span><span>Foto diri peminjam dengan <strong>KTP</strong>.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">02</span><span>Lebih dari 24 jam dikenakan denda <span class="text-red-500 font-semibold">Rp 370.000/hari</span>. Invoice tidak dibayar &gt;1 bulan: denda <span class="text-red-500 font-semibold">2%/hari</span>.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">03</span><span>Barang rusak → biaya servis ditanggung peminjam.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">04</span><span>Diluar Jakarta Barat, hubungi kami dulu via WhatsApp.</span></li>
