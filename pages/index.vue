@@ -362,8 +362,8 @@ const detailType = ref<"product" | "talent">("product");
 const modalDetailProductState = ref(false);
 
 const stats = [
-	{ value: "100+", label: "Event Sukses" },
-	{ value: "50+", label: "Alat Tersedia" },
+	{ value: "100+", label: "Clients" },
+	{ value: "2023", label: "Sejak" },
 	{ value: "5★", label: "Rating" },
 	{ value: "Free", label: "Ongkir 5KM" },
 ];
