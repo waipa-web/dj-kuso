@@ -139,7 +139,7 @@
 	<section class="talent py-24 px-4 bg-muted/10">
 		<div class="max-w-7xl mx-auto">
 			<div class="reveal text-center mb-16">
-				<span class="text-xs text-primary uppercase tracking-widest font-semibold">Tim Kami</span>
+				<span class="text-xs text-primary uppercase tracking-widest font-semibold">Talent Kami</span>
 				<h2 class="text-3xl md:text-5xl font-black mt-2">Our Talents</h2>
 				<p class="text-muted-foreground mt-3 text-sm max-w-md mx-auto">DJ profesional berpengalaman untuk memeriahkan setiap momen spesialmu</p>
 			</div>
