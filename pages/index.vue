@@ -116,7 +116,7 @@
 								<div class="absolute bottom-3 left-4 right-4 flex justify-between items-end">
 									<span class="font-black text-xl text-white">{{ useRupiahFormat(product.price) }}<span class="text-xs font-normal text-white/70"> /day</span></span>
 									<Badge class="font-bold text-xs" :class="product?.avaibility ? 'bg-green-500' : 'bg-red-500'">
-										{{ product?.avaibility ? "Tersedia" : "On Service" }}
+										{{ product?.avaibility ? "Tersedia" : "Tidak Tersedia" }}
 									</Badge>
 								</div>
 							</div>
@@ -299,7 +299,7 @@
 					<h2 class="text-xl font-semibold flex items-center justify-between">
 						<span>{{ detailItem.name }}</span>
 						<Badge class="font-bold px-3 py-1" :class="detailItem.avaibility ? 'bg-green-500' : 'bg-red-500'">
-							{{ detailItem.avaibility ? "Tersedia" : "On Service" }}
+							{{ detailItem.avaibility ? "Tersedia" : "Tidak Tersedia" }}
 						</Badge>
 					</h2>
 					<div class="description overflow-y-auto max-h-[70vh]">
