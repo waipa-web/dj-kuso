@@ -1,11 +1,11 @@
 [
 	{
 		"id": 1,
-		"name": "Pioneer DDJ 400",
+		"name": "Pioneer DDJ FLX 4",
 		"price": "365000",
-		"description": "<p>Spesifikasi alat:<br>-Controller DJ Set<br>-Menggunakan Software Rekordbox ONLY<br>-Plug n Play<br>-Harus menggunakan Laptop</p> <p>&nbsp;</p> <p>Kelengkapan:<br>-Unit Controller dengan tas<br>-Kabel USB untuk Controller ke Laptop<br>-Kabel audio RCA to XLR 5meter 2 pasang(optional)</p>",
-		"image": "/p2.jpg",
-		"avaibility": false,
+		"description": "<p>Spesifikasi alat:<br>-Controller DJ Set<br>-Menggunakan Software Rekordbox & Serato<br>-Plug n Play<br>-Harus menggunakan Laptop / HP / Tablet</p> <p>&nbsp;</p> <p>Kelengkapan:<br>-Unit Controller dengan tas<br>-Kabel USB untuk Controller ke Laptop<br>-Kabel audio RCA to XLR 5meter 2 pasang(optional)</p>",
+		"image": "/p1.jpg",
+		"avaibility": true,
 		"video": [
 			{
 				"id": 1,
@@ -23,7 +23,7 @@
 				"url": "https://www.youtube.com/embed/-aAQC2obxrE?si=lhfu-Dtc_aNvO2OJ"
 			}
 		],
-		"images": ["/p2.jpg", "/p2-2.png", "/p2-3.png", "/kabel.jpg"]
+		"images": ["/p1.jpg", "/p1-2.png", "/p1-3.png", "/kabel.jpg"]
 	},
 	{
 		"id": 2,
