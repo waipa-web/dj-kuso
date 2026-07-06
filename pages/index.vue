@@ -194,13 +194,14 @@
 						<CardContent class="pt-2">
 							<ol class="space-y-3 text-sm">
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">01</span><span>Foto diri peminjam dengan <strong>KTP</strong>.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">02</span><span>Lebih dari 24 jam dikenakan denda <span class="text-red-500 font-semibold">Rp 370.000/hari</span>. Invoice tidak dibayar &gt;1 bulan: denda <span class="text-red-500 font-semibold">2%/hari</span>.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">03</span><span>Barang rusak → biaya servis ditanggung peminjam.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">04</span><span>Diluar Jakarta Barat, hubungi kami dulu via WhatsApp.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">05</span><span>Sudah termasuk <strong>Operator</strong> (opsional).</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">06</span><span>Booking bisa <strong>H-1</strong>, tapi lebih bagus jauh hari.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">07</span><span><strong>DP</strong> diperlukan untuk sewa lebih dari 3 hari.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">08</span><span>Peminjam setuju semua ketentuan. Jika terjadi pelanggaran, <span class="text-red-500 font-semibold">pihak jasa lepas tanggung jawab</span>.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">02</span><span>Pembayaran dilakukan di Awal dengan Full Paymnent.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">03</span><span>Lebih dari 24 jam dikenakan denda <span class="text-red-500 font-semibold">Rp 370.000/hari</span>. Invoice tidak dibayar &gt;1 bulan: denda <span class="text-red-500 font-semibold">2%/hari</span>.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">04</span><span>Barang rusak → biaya servis ditanggung oleh peminjam.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">05</span><span>Diluar Jakarta Barat, hubungi kami dulu via WhatsApp.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">06</span><span>Sudah termasuk <strong>Operator</strong> (opsional).</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">07</span><span>Booking bisa <strong>H-1</strong>, tapi lebih bagus jauh hari.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">08</span><span><strong>DP</strong> diperlukan untuk sewa lebih dari 3 hari.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">09</span><span>Peminjam setuju semua ketentuan. Jika terjadi pelanggaran, <span class="text-red-500 font-semibold">pihak jasa lepas tanggung jawab apapun itu resiko yang terjadi kedepan kepada customer.</span>.</span></li>
 							</ol>
 						</CardContent>
 						<CardFooter class="justify-center pt-4">
