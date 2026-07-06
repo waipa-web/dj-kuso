@@ -194,7 +194,7 @@
 						<CardContent class="pt-2">
 							<ol class="space-y-3 text-sm">
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">01</span><span>Foto diri peminjam dengan <strong>KTP</strong>.</span></li>
-								<li class="flex gap-3"><span class="text-primary font-black shrink-0">02</span><span>Pembayaran dilakukan di Awal dengan Full Paymnent.</span></li>
+								<li class="flex gap-3"><span class="text-primary font-black shrink-0">02</span><span>Pembayaran dilakukan di Awal dengan Full Payment.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">03</span><span>Lebih dari 24 jam dikenakan denda <span class="text-red-500 font-semibold">Rp 370.000/hari</span>. Invoice tidak dibayar &gt;1 bulan: denda <span class="text-red-500 font-semibold">2%/hari</span>.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">04</span><span>Barang rusak → biaya servis ditanggung oleh peminjam.</span></li>
 								<li class="flex gap-3"><span class="text-primary font-black shrink-0">05</span><span>Diluar Jakarta Barat, hubungi kami dulu via WhatsApp.</span></li>
