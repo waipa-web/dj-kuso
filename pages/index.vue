@@ -215,7 +215,7 @@
 					<div class="rounded-2xl border border-green-500/30 bg-green-500/5 p-6 relative overflow-hidden">
 						<div class="absolute -top-6 -right-6 text-[8rem] opacity-10 select-none pointer-events-none">🎉</div>
 						<h3 class="text-xl font-black text-green-500 mb-1">FREE ONGKIR</h3>
-						<p class="text-sm text-muted-foreground mb-4">Gratis antar-jemput untuk radius <strong class="text-foreground">5 KM</strong> dari toko! (KHUSUS HARIAN)</p>
+						<p class="text-sm text-muted-foreground mb-4">Gratis antar-jemput untuk radius <strong class="text-foreground">5 KM</strong> dari toko! <strong class="text-foreground">(Khusus Harian)</strong></p>
 						<div class="space-y-2 text-sm">
 							<div class="flex justify-between py-2 border-b border-border">
 								<span class="text-muted-foreground">0 – 5 KM</span>
