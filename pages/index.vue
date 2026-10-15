@@ -31,7 +31,6 @@
 
 			<p class="hero-sub mt-6 text-sm md:text-base text-white/60 max-w-md leading-relaxed tracking-wide">
 				Sewa alat DJ profesional untuk <span class="text-white font-semibold">wedding</span>, <span class="text-white font-semibold">ulang tahun</span>, <span class="text-white font-semibold">corporate event</span> & semua acara spesialmu.
-			<div><span class="text-red-500 font-semibold">We are Non-Corporate</span></div>
 			</p>
 
 			<div class="hero-btns mt-10 flex flex-col sm:flex-row gap-3">
